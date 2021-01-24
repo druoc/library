@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tillana', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  
+}
+
+body {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #0f0e2e, #1f49ab);
+  background-attachment: fixed;
+}
+
+.entry-form-container {
+  margin-top: 50px;
+}
+
+#submit-button {
+  margin-top: 15px;
+  
+}
+
+#submit-button:hover {
+  cursor: pointer;
+}
+
+.table {
+  position: relative;
+  margin-top: 70px;
+  width: 60%;
+  grid-column: 1 / 4;
+  border: solid;
+  text-align: center;
+}
+
+#entry-form-container {
+
+}
+
+td {
+  border: solid;
+}
